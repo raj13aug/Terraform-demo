@@ -1,0 +1,6 @@
+
+Forests are essential for animals as well as for humans. 
+Humans are dependent on forests for various reasons, and animals are dependent on forests for their habitat and survival.
+We get various types of ${common[0]}  ${common[1]} , ${common[2]} , ${common[3]} , ${common[4]} , etc., from forests. Wild animals like ${animals[0]} ${animals[1]} , ${animals[1]} , ${animals[2]} , ${animals[3]} , ${animals[4]} , ${animals[5]} , etc., live in forests, and their whole survival is dependent on forests and forest products. 
+Forests bring us rain and maintain the balance in the environment. The ecosystem will be depleted with the depletion of forests. 
+Therefore, it is essential to stop cutting down trees and save our forests.
