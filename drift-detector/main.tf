@@ -15,6 +15,15 @@ provider "aws" {
 }
 
 
+terraform {
+  backend "s3" {
+    bucket = "drift-demo"
+    key    = "drift"
+    region = "us-east-1"
+  }
+}
+
+
 resource "aws_instance" "web" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
@@ -28,6 +37,7 @@ resource "aws_instance" "web" {
     Name = "Created_By_Terraform_Automation"
   }
 }
+
 
 
 resource "aws_security_group" "ec2_demo_sg" {
