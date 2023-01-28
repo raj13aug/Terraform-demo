@@ -21,7 +21,7 @@ variable "ip_addresses" {
 
 
 output "middle_ip" {
-  value = split(",", var.ip_addresses.value)[1]
+  value = split(",", var.ip_addresses)[1]
 }
 
 ##########################
