@@ -6,7 +6,7 @@ variable "type" {
 }
 
 locals {
-    str = join("-", ["concatenation", "through", var.type, "function"])
+  str = join("-", ["concatenation", "through", var.type, "function"])
 }
 
 output "join-output" {
@@ -21,7 +21,7 @@ variable "ip_addresses" {
 
 
 output "middle_ip" {
-  value = split(","var.ip_addresses.value)[1]
+  value = split(",", var.ip_addresses.value)[1]
 }
 
 ##########################
