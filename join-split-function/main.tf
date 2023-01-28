@@ -1,13 +1,13 @@
 
 ####### Join ############
 
-variable "type" {
+variable "string-value" {
   default = "function"
 }
 
 locals {
   s1  = "join"
-  str = join("-", ["concatenation", "through", local.s1, var.type])
+  str = join("-", ["concatenation", "through", local.s1, var.string-value])
 }
 
 output "join-output" {
