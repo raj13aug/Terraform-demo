@@ -16,7 +16,7 @@ output "join-output" {
 ####### Split ############
 
 variable "ip_addresses" {
-  value = "192.168.0.1,192.168.0.2,192.168.0.3"
+  default = "192.168.0.1,192.168.0.2,192.168.0.3"
 }
 
 
