@@ -2,11 +2,12 @@
 ####### Join ############
 
 variable "type" {
-  default = ["join"]
+  default = "function"
 }
 
 locals {
-  str = join("-", ["concatenation", "through", var.type, "function"])
+  s1  = "join"
+  str = join("-", ["concatenation", "through", local.s1, var.type])
 }
 
 output "join-output" {
